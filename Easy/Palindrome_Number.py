@@ -1,9 +1,5 @@
 def isPalindrome(x):
-    n = str(x)
-    a = str(x)[::-1]
-    if n == a:
-        return True
-    else:
-        return False
+    result = True if str(x) == str(x)[::-1] else False
+    return result
       
 print(isPalindrome(121))
