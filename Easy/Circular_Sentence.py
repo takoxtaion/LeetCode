@@ -14,5 +14,5 @@ def isCircularSentence(sentence):
             is_circular = False
             break
     return is_circular
-#example
+#Example
 print(isCircularSentence("leetcode exercises sound delightful"))
