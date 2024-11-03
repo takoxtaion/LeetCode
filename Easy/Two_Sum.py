@@ -7,5 +7,5 @@ def twosum(nums, target):
         hashmap[num] = i
     return []
 
-#example
+#Example
 print(twosum([2, 7, 11, 15], 9))
