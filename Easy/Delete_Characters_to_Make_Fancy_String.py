@@ -11,5 +11,5 @@ def makeFancyString(s):
     return "".join(result)
 
 
-# Example:
+#Example:
 print(makeFancyString("LeeetCode"))
