@@ -1,9 +1,5 @@
 def isAnagram(s, t) -> bool:
-    m = sorted(s)
-    n = sorted(t)
-    if m == n:
-        return True
-    else:
-        return False
+    result = True if sorted(s) == sorted(t) else False:
+    return result
 
 print(isAnagram("anagram", "nagaram"))
