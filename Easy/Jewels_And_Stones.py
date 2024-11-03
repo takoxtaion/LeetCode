@@ -5,5 +5,5 @@ def numJewelsInStones(jewels, stones):
             if i == j:
                 output += 1
     return output
-#example
+#Example
 print(numJewelsInStones("aA", "aAAbbbb"))
